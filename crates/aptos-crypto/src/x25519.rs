@@ -179,7 +179,7 @@ impl traits::Uniform for PrivateKey {
     where
         R: RngCore + CryptoRng,
     {
-        Self(x25519_dalek::StaticSecret::new(rng))
+        Self(x25519_dalek::StaticSecret::random())
     }
 }
 
