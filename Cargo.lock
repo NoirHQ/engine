@@ -10896,7 +10896,7 @@ dependencies = [
 [[package]]
 name = "merlin"
 version = "3.0.0"
-source = "git+https://github.com/aptos-labs/merlin#3454ccc85e37355c729ba40e6dac6e867ddf59f5"
+source = "git+https://github.com/aptos-labs/merlin?rev=3454ccc85e37355c729ba40e6dac6e867ddf59f5#3454ccc85e37355c729ba40e6dac6e867ddf59f5"
 dependencies = [
  "byteorder",
  "keccak",
