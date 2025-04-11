@@ -42,5 +42,9 @@ pub fn aptos_natives_with_builder(
             CORE_CODE_ADDRESS,
             builder,
         ))
+        .chain(engine_move::natives::all_natives(
+            engine_move::ENGINE_ADDRESS,
+            builder,
+        ))
         .collect()
 }

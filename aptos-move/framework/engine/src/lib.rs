@@ -12,3 +12,9 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+
+pub mod natives;
+
+use move_core_types::account_address::AccountAddress;
+
+pub const ENGINE_ADDRESS: AccountAddress = AccountAddress::from_u64(0x100);

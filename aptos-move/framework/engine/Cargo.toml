@@ -8,4 +8,16 @@ license = "Apache-2.0"
 publish = false
 
 [dependencies]
+aptos-native-interface = { workspace = true }
+better_any = { workspace = true }
+smallvec = { workspace = true }
 
+move-binary-format = { workspace = true }
+move-core-types = { workspace = true }
+move-vm-runtime = { workspace = true }
+move-vm-types = { workspace = true }
+
+alloy-consensus = { version = "0.13.0", features = ["k256"] }
+alloy-evm = "0.3.1"
+alloy-rlp = "0.3.10"
+revm = "21.0.0"

@@ -71,6 +71,7 @@ impl ReleaseTarget {
                 "aptos-token-objects",
                 Some("cached-packages/src/aptos_token_objects_sdk_builder.rs"),
             ),
+            ("engine", Some("cached-packages/src/engine_sdk_builder.rs")),
         ];
         // Currently we don't have experimental packages only included in particular targets.
         result

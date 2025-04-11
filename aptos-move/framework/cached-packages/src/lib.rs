@@ -8,6 +8,7 @@ pub mod aptos_framework_sdk_builder;
 pub mod aptos_stdlib;
 pub mod aptos_token_objects_sdk_builder;
 pub mod aptos_token_sdk_builder;
+pub mod engine_sdk_builder;
 
 #[cfg(unix)]
 const HEAD_RELEASE_BUNDLE_BYTES: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/head.mrb"));
