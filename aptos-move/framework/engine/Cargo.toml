@@ -1,0 +1,11 @@
+[package]
+name = "engine-move"
+version = "0.1.0"
+authors = ["Haderech Pte. Ltd."]
+edition = "2021"
+repository = "https://github.com/noirhq/engine.git"
+license = "Apache-2.0"
+publish = false
+
+[dependencies]
+
